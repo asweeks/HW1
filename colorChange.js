@@ -23,9 +23,9 @@ function draw() {
       if (mouseIsPressed) {
         bubbles.splice(i, 1); // remove this bubble!
       }
-      fill(100, 200, 200, 220); // changing value #s in fill function parameters changes bubble color
+      fill(100, 200, 200, 220); // changing value #s in "fill" function parameters changes bubble color when hovered over
     } else {
-      fill(255, 100, 200, 200);
+      fill(255, 100, 200, 200); //changes normal bubble color
     }
 
     ellipse(bubble.x, bubble.y, bubble.radius * 2);
